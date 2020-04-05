@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fd5731d1-b70e-4150-985c-3e182fd14637" name="Default Changelist" comment="">
+    <list default="true" id="fd5731d1-b70e-4150-985c-3e182fd14637" name="Default Changelist" comment="Filling stuff out">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/store/AdminPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/AdminPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Nav.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Nav.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/store/ItemPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/ItemPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/store/MyCollection.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/MyCollection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/store/Storefront.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/Storefront.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/store/UserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/store/UserPage.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/fire/fire.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/fire/fire.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/Login.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/Login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/SignUp.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/SignUp.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/users/UserPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/users/UserPage.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/actions/setActions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions/setActions.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/redux/reducer/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/reducer/index.js" afterDir="false" />
     </list>
@@ -40,6 +40,7 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -54,13 +55,14 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\mlock\Desktop\Commercial Website Dev\WebStorm\relational-database\src" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mlock\Desktop\Commercial Website Dev\WebStorm\relational-database\src" />
       <recent name="C:\Users\mlock\Desktop\Commercial Website Dev\WebStorm\relational-database\src\components" />
       <recent name="C:\Users\mlock\Desktop\Commercial Website Dev\WebStorm\relational-database\src\components\store" />
       <recent name="C:\Users\mlock\Desktop\Commercial Website Dev\WebStorm\relational-database\src\components\user" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mlock\Desktop\Commercial Website Dev\WebStorm\relational-database\src" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -102,30 +104,55 @@
       <updated>1583632590533</updated>
       <workItem from="1583632605382" duration="13082000" />
       <workItem from="1583655524573" duration="6051000" />
-      <workItem from="1583710562054" duration="1122000" />
+      <workItem from="1583710562054" duration="1651000" />
+      <workItem from="1583774851544" duration="798000" />
+      <workItem from="1584232660099" duration="9419000" />
+      <workItem from="1586068124882" duration="7907000" />
     </task>
+    <task id="LOCAL-00001" summary="Filling stuff out">
+      <created>1583712255636</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583712255636</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Filling stuff out" />
+    <option name="LAST_COMMIT_MESSAGE" value="Filling stuff out" />
+  </component>
   <component name="WindowStateProjectService">
-    <state width="1015" height="168" key="GridCell.Tab.0.bottom" timestamp="1583712093080">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="481" y="0" key="CommitChangelistDialog2" timestamp="1586076625004">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1015" height="168" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1583712093080" />
-    <state width="1015" height="168" key="GridCell.Tab.0.center" timestamp="1583712093079">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state x="481" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1586076625004" />
+    <state x="495" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1583712251886" />
+    <state width="1014" height="168" key="GridCell.Tab.0.bottom" timestamp="1586076636697">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1015" height="168" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1583712093079" />
-    <state width="1015" height="168" key="GridCell.Tab.0.left" timestamp="1583712093079">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1014" height="168" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1586076636697" />
+    <state width="1014" height="168" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1584243858040" />
+    <state width="1014" height="168" key="GridCell.Tab.0.center" timestamp="1586076636697">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1015" height="168" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1583712093079" />
-    <state width="1015" height="168" key="GridCell.Tab.0.right" timestamp="1583712093080">
-      <screen x="0" y="0" width="1366" height="768" />
+    <state width="1014" height="168" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1586076636697" />
+    <state width="1014" height="168" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1584243858039" />
+    <state width="1014" height="168" key="GridCell.Tab.0.left" timestamp="1586076636697">
+      <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1015" height="168" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1583712093080" />
+    <state width="1014" height="168" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1586076636697" />
+    <state width="1014" height="168" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1584243858039" />
+    <state width="1014" height="168" key="GridCell.Tab.0.right" timestamp="1586076636697">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1014" height="168" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1586076636697" />
+    <state width="1014" height="168" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1584243858040" />
     <state x="280" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1583643761282">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

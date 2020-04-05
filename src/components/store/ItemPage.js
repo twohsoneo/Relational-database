@@ -19,7 +19,7 @@ function ItemPage(props) {
             <img src={item.imgSource} alt={item.name}/>
             <div>
                 <Link to={"/storefront"}><button>Store</button></Link>
-                <Link to={"/user"}><button>My Collection</button></Link>
+                <Link to={"/collection"}><button>My Collection</button></Link>
             </div>
         </div>
 

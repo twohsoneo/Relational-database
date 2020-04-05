@@ -15,3 +15,19 @@ export const checkChange =()=>{
         type:"CHECK_CHANGE"
     }
 };
+
+export const checkLoggedIn =(check)=>{
+    return {
+        type: "CHECK_LOGGED_IN",
+        loggedIn: check
+    }
+};
+
+export const currentUser = (user)=>{
+    return {
+        type: "CURRENT_USER",
+        user:user
+    }
+};
+
+

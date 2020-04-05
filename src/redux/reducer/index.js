@@ -2,10 +2,11 @@ const initState = {
     change: false, 
     cart: [],
     collection: [],
+    loggedIn: true,
     user:{
-        fName: "Mike",
-        lName: "Lock",
-    }
+        email: "",
+        password: "",
+        }
 };
 
 const rootReducer = (state=initState, action) =>{
@@ -28,8 +29,24 @@ const rootReducer = (state=initState, action) =>{
 
         }
     }
+    if(action.type==="CHECK_LOGGED_IN") {
+        return {
+            ...state,
+            loggedIn:action.loggedIn
+        }
+    }
+    if(action.type==="CURRENT_USER") {
+        return {
+            ...state,
+            user: {
+                name: action.user.displayName,
+                email: action.user.email,
+                password: action.user.password,
+                id: action.user.uid
+            }
+        }
+    }
     return state
-
 };
 
 export default rootReducer;
